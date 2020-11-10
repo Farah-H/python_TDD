@@ -1,6 +1,7 @@
 # Test Driven Development (TDD)
 Is the method of creating tests, then building code which passes the tests, rather than building code and then tests.
-![](https://cdn.discordapp.com/attachments/767793850529087489/775659329151696947/unknown.png)
+
+![TDD](TDD)
 
 ## Why would we use TDD? 
 - We know the requirements
@@ -17,3 +18,10 @@ Is the method of creating tests, then building code which passes the tests, rath
 - we will run the test they will all fail
 - create a file to write our code 
 - we will refactor and add the code to pass the tests
+
+## Naming Convention for TDD
+- file name e.g `simple_calc`
+- test file file name e.g `test_simple_calc`
+
+## Steps:
+1. Install pytest using the command `pip install pytest` in your terminal
